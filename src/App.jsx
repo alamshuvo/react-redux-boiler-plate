@@ -5,9 +5,15 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+// some code added 
   return (
-    <>
+    <> <Image
+    src="https://res.cloudinary.com/dqugrb0la/image/upload/v1756655880/WhatsApp_Image_2025-08-17_at_21.39.06_c4ie2t.jpg"
+    width={280}
+    height={280}
+    alt="fff"
+    className="w-[280px] h-[280px] rounded-full border-4 border-[#3c91b2] object-cover"
+  />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
